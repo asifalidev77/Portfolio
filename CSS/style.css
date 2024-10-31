@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: "Kanit", sans-serif;
+}
+.header{
+    height: 08vh;
+    background: #EEE5DC;
+}
+.logo img{
+    /* background-color: red; */
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+}
+.hero-section{
+    background: #EEE5DC;
+    height: 92vh;
+    width: 100%;
+    align-content: center;
+    position: relative;
+}
+.hero-section h1{
+    font-size: 190px;
+    font-weight: 600;
+    line-height: 0.9em;
+    text-transform: uppercase;
+    z-index: 1;
+}.hero-section span{
+    text-transform: uppercase;
+    color: rgba(255, 0, 0, 0);
+    -webkit-text-stroke: 2px black;
+}
+.hero-section img{
+    width: 921px;
+    height: 800px;
+    position: absolute;
+    bottom: 0;
+    /* right: 0; */
+    left: 23%;
+    object-fit: contain;
+    object-position: center;
+    z-index: 2;
+}
+.hero-section button{
+padding: 15px 50px;
+border-radius: 0%;
+position: relative;
+z-index: 99;
+border-radius: 40px;
+color: black;
+background: none;
+border: 1px solid black;
+font-size: 15px;
+font-weight: 500;
+margin-top: 80px;
+}
+.hero-section button:hover{
+    color: rgb(255, 255, 255);
+}
+.about{
+background: #D9DBEB;
+height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.about h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.about span::before {
+    content: "";
+    display: inline-block;
+    border-top: 2px solid black;
+    width: 8rem;
+    margin: 0.1rem;
+    transform: translateY(-1rem);
+  }
+  .about-us img{
+    height: auto;
+    max-width: 100%;
+    object-position: right;
+    position: absolute;
+    top: 45%;
+    left:40%;
+  }
+  .about-us button{
+    padding: 15px 50px;
+    border-radius: 0%;
+    position: relative;
+    z-index: 99;
+    border-radius: 40px;
+    color: black;
+    background: none;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 80px;
+    }
+    .about-us button:hover{
+        color: rgb(255, 255, 255);
+        background: black;
+    }
